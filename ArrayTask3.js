@@ -8,15 +8,16 @@
 
 // 3. Print a message to the console indicating whether the element is present in the array or not.
 
-let libraryMem = ['poe','bank math','mafs', 'GFI', 'Think Clearly', 'Ikigai'];
+let libraryMem = ['poe', 'bank math', 'mafs', 'GFI', 'Think Clearly', 'Ikigai'];
 
 console.log(libraryMem);
-let checkBook = 'Poe';
+let checkBook = 'poe';
 
 let police = libraryMem.includes(checkBook);
+console.log(police); // Returns Boolean
 
-if(police){
+if (police) {
     console.log("Bingo, Grab em!");
-}else{
+} else {
     console.log("Call Police!");
 }
